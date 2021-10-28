@@ -94,8 +94,8 @@ section:nth-child(even) {
   margin-bottom: 20px;
 }
 
-.text--purple {
-  color: #6030b1;
+.text--blue {
+  color: #6C63FF;
 }
 
 /*NAVIGATION BAR*/
@@ -122,7 +122,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
+  background-color: #6C63FF;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -135,7 +135,7 @@ nav {
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
+  color: #6C63FF;
   margin: 0 12px;
   font-weight: bold;
 }
