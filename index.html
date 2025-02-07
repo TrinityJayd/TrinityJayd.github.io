@@ -3,172 +3,246 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trinity Tiratram</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Trinity Tiratram's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section id="about-me">
-        <nav>
-            <div class="personal__logo">Trinity Tiratram</div>
-            <ul class="nav__link--list">
-                <li>
-                    <a href="#languages" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">Languages</a>
-                </li>
+    <header>
+        <div class="svg-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#af9dee" fill-opacity="1"
+                    d="M0,128L48,154.7C96,181,192,235,288,250.7C384,267,480,245,576,213.3C672,181,768,139,864,106.7C960,75,1056,53,1152,74.7C1248,96,1344,160,1392,192L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                </path>
+            </svg>
+        </div>
 
-                <!-- Update when there are projects to add
-                <li>
-                    <a href="" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black
-                    ">Projects</a>
-                </li>
-                -->
-                
+    </header>
+    <main>
 
-                <li>
-                    <a href="mailto:trinitytiratram@gmail.com" class="
-                    nav__link--anchor
-                    nav__link--anchor-primary
-                    ">Contact</a>
-                </li>
 
-            </ul>
-        </nav>
-        <div class="flex flex-1">
-            <div class="about-me__info row">
-                <div class="about-me__info--container">
-                    <figure class="about-me__picture--mask">
-                        <img src="./assets/profile_picture.jpg" class="about-me__picture" alt="Picture of me!">
-                    </figure>
-                    <h1 class="about-me__info--title">
-                        Hello! I'm <span class="text--blue">Trinity Tiratram </span>&nbsp;<span class="wave">👋</span>
-                    </h1>
-                    <p class="about-me__info--para">
-                        I am <strong class="text--blue">computer science student</strong> passionate about building
-                        powerful applications
-                    </p>
-                    <div class="about-me__links">
-                        <a href="" class="about-me__link">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
+        <div class="introduction">
+            <div class="text-content">
+                <h1 class="greeting">Hello!</h1>
+                <p>My name is Trinity Tiratram, a full-stack developer from Durban, South</p>
+                <p>Africa. I've built everything from interactive mobile apps to dynamic web</p>
+                <p>platforms, and I love debugging—it’s like solving a mystery where every</p>
+                <p>bug is a clue, and I'm always on the case.</p>
+            </div>
 
-                        <a href="" class="about-me__link">
-                            <i class="fab fa-github"></i>
-                        </a>
+            <img class="into-img" src="assets/undraw_coding_joxb.svg" alt="Coding Illustration">
+        </div>
 
-                        <a href="" class="about-me__link">
-                            <i class="far fa-envelope"></i>
-                        </a>
+        <div class="projects">
+            <h2>My Projects</h2>
 
-                        <a href="./assets/Trinity_Tiratram.pdf" target="_blank" class="about-me__link">
-                            <i class="fas fa-file-pdf"></i>
-                        </a>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/beakbuddy.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beak Buddy</h5>
+                            <p class="card-text">A birdwatching app that helps users discover birding hotspots, track
+                                observations, and navigate in real time. It includes customizable settings, route
+                                planning, and integration with multiple Google APIs.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://youtu.be/fH8SIZOk6aY" target="_blank">
+                            <svg style="margin-right: 10px;" height="1.8rem" width="1.8rem" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path style="fill:#001427;"
+                                            d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            </a>
+
+                            <svg height="1.6rem" width="1.6rem" viewBox="0 0 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>github [#001427]</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <defs> </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"
+                                            fill="#001427">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                                    id="github-[#001427]"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
                 </div>
-                <figure class="about-me__img--container">
-                    <img src="./assets/graphic1-undraw.svg" class="about-me__img"
-                        alt="Image of woman working on laptop at night">
-                </figure>
-            </div>
-        </div>
-    </section>
-    <section id="languages">
-        <div class="container">
-            <div class="row">
-                <h1 class="section__title">This is my <span class="text--blue">technology stack</span>.</h1>
-                <div class="language__list">
-                    <div class="language">
-                        <figure class="language__image--container">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                                alt="HTML Logo" class="language__img">
-                        </figure>
-                        <span class="language__name">HTML</span>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/dewey.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dewey Decimal System Training</h5>
+                            <p class="card-text">An interactive web application designed to teach the Dewey Decimal
+                                System through engaging tasks like book sorting, call number identification, and a
+                                dynamic quiz system with gamification elements.</p>
+
+                        </div>
+                        <div class="card-footer">                       
+                            <svg height="1.6rem" width="1.6rem" viewBox="0 0 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>github [#001427]</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <defs> </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"
+                                            fill="#001427">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                                    id="github-[#001427]"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/farmcentral.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Farm Central </h5>
+                            <p class="card-text">A web platform that enables local farmers to collaborate and sell
+                                products under one system. It includes inventory tracking, user authentication, and
+                                role-based access for farmers and employees.</p>
 
-                    <div class="language">
-                        <figure class="language__image--container">
-                            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-                                alt="CSS Logo" class="language__img">
-                        </figure>
-                        <span class="language__name">CSS</span>
+
+                        </div>
+                        <div class="card-footer">
+                            <svg style="margin-right: 10px;" height="1.8rem" width="1.8rem" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path style="fill:#001427;"
+                                            d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+
+                            <svg height="1.6rem" width="1.6rem" viewBox="0 0 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>github [#001427]</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <defs> </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"
+                                            fill="#001427">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                                    id="github-[#001427]"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/studytrack.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Study Track</h5>
+                            <p class="card-text">A personal study tracker web application that calculates ideal study
+                                hours based on module credits, logs study sessions, and provides visual progress
+                                tracking with graphs. It features reminders for scheduled study days and secure user
+                                authentication.</p>
 
-                    <div class="language">
-                        <figure class="language__image--container">
-                            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-                                alt="JavaScript Logo" class="language__img">
-                        </figure>
-                        <span class="language__name">JavaScript</span>
+
+                        </div>
+                        <div class="card-footer">
+                            <svg style="margin-right: 10px;" height="1.8rem" width="1.8rem" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path style="fill:#001427;"
+                                            d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+
+                            <svg height="1.6rem" width="1.6rem" viewBox="0 0 20 20" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <title>github [#001427]</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <defs> </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"
+                                            fill="#001427">
+                                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                <path
+                                                    d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                                    id="github-[#001427]"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
                     </div>
-
-                    <div class="language">
-                        <figure class="language__image--container">
-                            <img src="https://tinycode.hk/wp-content/uploads/2015/01/java-logo-png-300x300.png"
-                                alt="JAVA Logo" class="language__img">
-                        </figure>
-                        <span class="language__name">JAVA</span>
-                    </div>
-
-                    <div class="language">
-                        <figure class="language__image--container">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-                                alt="Python Logo" class="language__img">
-                        </figure>
-                        <span class="language__name">Python</span>
-                    </div>
-
-
-                    <div class="language">
-                        <figure class="language__image--container">
-                            <img src="https://sqlbackupandftp.com/blog/wp-content/uploads/2015/01/mysql-logo_2800x2800_pixels1.png"
-                                alt="SQL Logo" class="language__img">
-                        </figure>
-                        <span class="language__name">SQL</span>
-                    </div>
-
-
                 </div>
             </div>
         </div>
-    </section>
 
+
+
+    </main>
     <footer>
-        <div class="row footer__row">
-
-          <div class="footer__social--list">
-            <a href="https://github.com/TrinityJayd" target="_blank" class="
-              footer__social--link
-              link__hover-effect
-              link__hover-effect--white
-            " target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/trinity-tiratram/" target="_blank" class="
-              footer__social--link
-              link__hover-effect
-              link__hover-effect--white
-            " target="_blank">LinkedIn</a>
-            <a href="mailto:trinitytiratram@gmail.com" target="_blank" class="
-              footer__social--link
-              link__hover-effect
-              link__hover-effect--white
-            " target="_blank">Email</a>
-            <a href="./assets/Trinity_Tiratram.pdf" target="_blank" class="
-              footer__social--link
-              link__hover-effect
-              link__hover-effect--white
-            " target="_blank">Resume</a>
-          </div>
-          <div class="footer__copyright">Copyright © 2021 Trinity Tiratram</div>
+        <div class="svg-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290">
+                <path fill="#af9dee" fill-opacity="1"
+                    d="M0,64L48,96C96,128,192,192,288,213.3C384,235,480,213,576,181.3C672,149,768,107,864,85.3C960,64,1056,64,1152,96C1248,128,1344,192,1392,224L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+                <text x="15%" y="93%" text-anchor="middle" fill="white" font-size="18" font-family="Montserrat">&copy;
+                    2025 Trinity Jayd. All rights reserved.</text>
+            </svg>
         </div>
-      </footer>
-    </body>
-    
-    </html>
+    </footer>
+</body>
+
+</html>
