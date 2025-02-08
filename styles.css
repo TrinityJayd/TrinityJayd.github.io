@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -13,11 +13,11 @@ body {
 
 }
 
-h2{
+h2 {
     margin-bottom: 5%;
 }
 
-.introduction{
+.introduction {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,12 +29,12 @@ h2{
     flex: 1;
 }
 
-.intro-img{
+.intro-img {
     width: 35%;
     height: auto;
 }
 
-.greeting{
+.greeting {
     font-size: 56px;
     font-weight: 500;
     margin: 3% 0;
@@ -42,24 +42,24 @@ h2{
 
 .svg-container {
     width: 100%;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 header .svg-container {
     margin-top: -3%;
 }
 
-.projects{
+.projects {
     text-align: center;
     margin: 0 10%;
 }
 
-.projects h2{
+h2 {
     font-size: 36px;
     font-weight: 400;
 }
 
-.card-body{
+.card-body {
     text-align: start;
 }
 
@@ -70,8 +70,19 @@ header .svg-container {
     object-position: center;
 }
 
-.card-footer{
+.card-footer {
     text-align: end;
+}
+
+.info {
+    text-align: center;
+    margin: 0 10%;
+    margin-top: 8%;
+}
+
+.info h2 {
+    font-size: 36px;
+    margin-bottom: 3%;
 }
 
 @media (max-width: 1024px) {
@@ -79,11 +90,11 @@ header .svg-container {
         height: 150px;
     }
 
-    .intro-img{
+    .intro-img {
         display: none;
     }
 
-    .projects{
+    .projects {
         margin: 0 5%;
     }
 }
@@ -99,7 +110,7 @@ header .svg-container {
         height: 200px;
     }
 
-    p{
+    p {
         margin-bottom: 5px;
     }
 }
@@ -115,3 +126,4 @@ header .svg-container {
         height: 160px;
     }
 }
+
