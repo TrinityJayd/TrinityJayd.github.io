@@ -29,7 +29,7 @@ h2{
     flex: 1;
 }
 
-.into-img{
+.intro-img{
     width: 35%;
     height: auto;
 }
@@ -72,4 +72,46 @@ header .svg-container {
 
 .card-footer{
     text-align: end;
+}
+
+@media (max-width: 1024px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    .intro-img{
+        display: none;
+    }
+
+    .projects{
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row-cols-md-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 426px) {
+    .card-img-top {
+        height: 200px;
+    }
+
+    p{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 376px) {
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+@media (max-width: 321px) {
+    .card-img-top {
+        height: 160px;
+    }
 }
